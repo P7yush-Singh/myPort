@@ -234,3 +234,27 @@ body{
     font-size: 14px;
     color: #666;
 }
+.row-2 .box:last-child{
+    padding: 1rem;
+}
+.row-2 .box:last-child h2{
+    text-align: center;
+}
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    color: #007bff;
+    margin-right: 10px;
+}
+.contact-info a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* Sets text color to white */
+    font-weight: bold; /* (Optional) Makes text bold */
+}
+
+.contact-info a:hover {
+    color: lightgray; /* (Optional) Change color on hover */
+}
