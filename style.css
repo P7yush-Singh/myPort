@@ -258,3 +258,38 @@ body{
 .contact-info a:hover {
     color: lightgray; /* (Optional) Change color on hover */
 }
+.row-3 .box:first-child{
+    background-color: rgba(226, 222, 222, 0.4);
+    text-align: center;
+}
+
+.row-3 .box:last-child{
+    padding: 1rem;
+    text-align: center;
+}
+.row-3 .box:last-child p{
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
+}
+.row-3 .box:last-child hr{
+    margin-bottom: 0.5rem;
+}
+.row-3 .box:last-child ul{
+    list-style: none;
+}
+.row-3 .box:last-child ul li{
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+}
+.row-3 .box:last-child #btn{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background: linear-gradient(45deg, #00eeff, #003985);
+    transition: 0.3s;
+    margin-top: 1rem;
+}
+.row-3 .box:last-child #btn:hover{
+    background: linear-gradient(45deg, #00a8b4, #024daf);
+    transform: scale(1.1);
+}
